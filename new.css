@@ -1,0 +1,61 @@
+.container {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left {
+    background-color: rgb(225, 151, 196);
+    width: 50%;
+}
+.showList {
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(82, 82, 209);
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 20px;
+}
+.taskText {
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.task {
+    background-color: rgb(29, 238, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 20px;
+}
+.taskCheckbox {
+    margin-right: 10px;
+}
+
+.deleteBtn {
+    background-color: rgb(241, 15, 15);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.forInput {
+    padding: 15% 5% 0 10%;
+}
+.forInput input {
+    width: 300px;
+    height: 40px;
+}
+.cuut {
+    
+    text-decoration: line-through;
+}
+
+/* .chk{
+    input[type = checkbox]:checked;
+} */
